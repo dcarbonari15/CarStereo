@@ -42,7 +42,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Eject"
-                        android:id="@+id/button" />
+                        android:id="@+id/ejectButton" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -82,7 +82,7 @@
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="Radio Station: "
-                            android:id="@+id/textView"
+                            android:id="@+id/radioStationText"
                             android:textColor="#ffffffff"
                             android:textSize="50sp" />
 
@@ -91,7 +91,7 @@
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="107.5"
-                            android:id="@+id/textView2"
+                            android:id="@+id/radioStationFrequency"
                             android:textColor="#ffffffff"
                             android:phoneNumber="true"
                             android:textSize="50sp" />
@@ -115,7 +115,7 @@
                         <SeekBar
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/seekBar"
+                            android:id="@+id/frequencySeekBar"
                             android:background="#ffffffff" />
 
                         <Space
