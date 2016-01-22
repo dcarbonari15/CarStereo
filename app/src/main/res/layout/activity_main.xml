@@ -205,21 +205,10 @@
                             android:text="AM"
                             android:id="@+id/textView" />
 
-                        <Space
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1" />
-
                         <Switch
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="New Switch"
                             android:id="@+id/switch1" />
-
-                        <Space
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
