@@ -203,19 +203,19 @@
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="AM"
-                            android:id="@+id/textView" />
+                            android:id="@+id/AMText" />
 
                         <Switch
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/switch1" />
+                            android:id="@+id/AMFMSwitch" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
                             android:text="FM"
-                            android:id="@+id/textView2" />
+                            android:id="@+id/FMText" />
 
                         <Space
                             android:layout_width="0dp"
@@ -325,7 +325,7 @@
                         <SeekBar
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/seekBar"
+                            android:id="@+id/VolumeSeekBar"
                             android:layout_weight="1" />
 
                     </LinearLayout>
